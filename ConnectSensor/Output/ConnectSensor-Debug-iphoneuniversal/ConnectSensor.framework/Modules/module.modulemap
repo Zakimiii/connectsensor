@@ -1,0 +1,11 @@
+framework module ConnectSensor {
+  umbrella header "ConnectSensor.h"
+
+  export *
+  module * { export * }
+}
+
+module ConnectSensor.Swift {
+    header "ConnectSensor-Swift.h"
+    requires objc
+}

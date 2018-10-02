@@ -1,0 +1,6 @@
+framework module Pods_ConnectSensorProject {
+  umbrella header "Pods-ConnectSensorProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,944 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D8E5531D4A6F1CB286299286DA530C7 /* Pods-ConnectSensorProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE9EA08DB193C4636DEF76E4A72184C /* Pods-ConnectSensorProject-dummy.m */; };
+		139234D4929A1A933E1A7F79FC07ADB3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AA8FC57764E9577CA25AFE700170D3 /* SystemConfiguration.framework */; };
+		16E7983AC1A7FDE4D5B5711604A7151E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C3A1F100D6DE00B711E31320AFB0EB /* Foundation.framework */; };
+		1B3C81913E0BB58E6E1AA2631DBCE1FC /* Pods-ConnectSensorProjectUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 089CC68A6569DAB58C74F74FE063023F /* Pods-ConnectSensorProjectUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AF84E4E5EA594C0244625BEDF14F610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C3A1F100D6DE00B711E31320AFB0EB /* Foundation.framework */; };
+		3B5F2CAE170CF4DF1D4670CAB80E79B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C3A1F100D6DE00B711E31320AFB0EB /* Foundation.framework */; };
+		5D0396DA7731DAFB8C5ECFB604DD5588 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2239DA93AF8EADE2936E304FDC200C /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F5B526E4998B0E1C6055EA16BB2CEF2 /* Pods-ConnectSensorProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 131A36F80BC678C5E673CFCC8EFF301F /* Pods-ConnectSensorProjectUITests-dummy.m */; };
+		704472FCE9518D243C988D23AAF5C5E3 /* Pods-ConnectSensorProjectTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F370982EEC34CE2EF22FA727EDBB5A /* Pods-ConnectSensorProjectTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74F1F524076112DBDBD16AE384CF021B /* Pods-ConnectSensorProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31549AB6D99558C62E436511FE9DBAB8 /* Pods-ConnectSensorProjectTests-dummy.m */; };
+		8AB835A838D12FE753F344F639DB9FBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C3A1F100D6DE00B711E31320AFB0EB /* Foundation.framework */; };
+		9FEE9432DE4F25FFCA1B3B1627C9B686 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5142C47B1A75048C2649F609D38AC9 /* ReachabilitySwift-dummy.m */; };
+		A51A70151812D15EB446053DABAC046D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69D4187F1B8F1EEEA7A0121DE67F2B7 /* Reachability.swift */; };
+		F5FD4B3A780B3ED6EB4288CA736E00CC /* Pods-ConnectSensorProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C88FDE7C6E210AFC999C2A291669075C /* Pods-ConnectSensorProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A3900A890F44ABB5D607CBCB5643AD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F461C79EC3FFE1894379EBA2E2BCDD9;
+			remoteInfo = "Pods-ConnectSensorProject";
+		};
+		B45E6C55C0AAFAC3F5EACB3912D8756A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94D8666874BD670B7E31A04187DE8EEE;
+			remoteInfo = ReachabilitySwift;
+		};
+		B6ADB2C1835CE347C876640CF188ACCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F461C79EC3FFE1894379EBA2E2BCDD9;
+			remoteInfo = "Pods-ConnectSensorProject";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03CC773CA98A60381EA1ECF85090DF3E /* Pods-ConnectSensorProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConnectSensorProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		086325F80F49F361BA461A85B10F5F2A /* Pods-ConnectSensorProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ConnectSensorProjectTests.modulemap"; sourceTree = "<group>"; };
+		089CC68A6569DAB58C74F74FE063023F /* Pods-ConnectSensorProjectUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConnectSensorProjectUITests-umbrella.h"; sourceTree = "<group>"; };
+		131A36F80BC678C5E673CFCC8EFF301F /* Pods-ConnectSensorProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConnectSensorProjectUITests-dummy.m"; sourceTree = "<group>"; };
+		1FE9EA08DB193C4636DEF76E4A72184C /* Pods-ConnectSensorProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConnectSensorProject-dummy.m"; sourceTree = "<group>"; };
+		26969D0569D1C0886AC6C118CE213FDD /* Pods-ConnectSensorProjectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ConnectSensorProjectUITests.modulemap"; sourceTree = "<group>"; };
+		31549AB6D99558C62E436511FE9DBAB8 /* Pods-ConnectSensorProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConnectSensorProjectTests-dummy.m"; sourceTree = "<group>"; };
+		4081E15AAA25116F4ACDCE8160290A35 /* Pods-ConnectSensorProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConnectSensorProject-resources.sh"; sourceTree = "<group>"; };
+		454DACB173B8E12DCB79B9D210569819 /* Pods_ConnectSensorProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ConnectSensorProjectTests.framework; path = "Pods-ConnectSensorProjectTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F370982EEC34CE2EF22FA727EDBB5A /* Pods-ConnectSensorProjectTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConnectSensorProjectTests-umbrella.h"; sourceTree = "<group>"; };
+		4B2239DA93AF8EADE2936E304FDC200C /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		4C9E676D029FB0CFEEC40271B94A6F46 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		6B2977437CDE2CD5203BD0C73229DE44 /* Pods-ConnectSensorProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConnectSensorProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E73CBA5132EE9FF5901D59013F09EF8 /* Pods-ConnectSensorProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConnectSensorProject.debug.xcconfig"; sourceTree = "<group>"; };
+		73BE53C7690B698D39D19DCF69B5B763 /* Pods-ConnectSensorProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConnectSensorProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		741961D6F8D4C208E9DF4F56A9792BF0 /* Pods-ConnectSensorProjectTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConnectSensorProjectTests-resources.sh"; sourceTree = "<group>"; };
+		77AA8FC57764E9577CA25AFE700170D3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		7AA271AEAEEBA381F33DF7E9C0007501 /* Pods-ConnectSensorProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConnectSensorProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B08486AB2D3EDDE0EE60D5969CAB242 /* Pods-ConnectSensorProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConnectSensorProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		864807FA7947C018A8527920A89E678A /* Pods-ConnectSensorProjectUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConnectSensorProjectUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8DDD13AAE2B208FDFD981CA7085E4440 /* Pods-ConnectSensorProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ConnectSensorProject.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		945F2749CC9FC1F24C33F103A1FBA049 /* Pods-ConnectSensorProjectTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConnectSensorProjectTests-frameworks.sh"; sourceTree = "<group>"; };
+		9544718ABDE9F901834852562775B416 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		9D5142C47B1A75048C2649F609D38AC9 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		A5CA974934051B5F073610A319D6DCBD /* Pods-ConnectSensorProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConnectSensorProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0D88435BB7381B32F2BA60CA1AA46CC /* Pods-ConnectSensorProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConnectSensorProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1C3A1F100D6DE00B711E31320AFB0EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B1CEC5D5951A6CC2DEB46ED2A0734A5B /* Pods_ConnectSensorProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ConnectSensorProjectUITests.framework; path = "Pods-ConnectSensorProjectUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2168101532A4441572E2F53FECA002B /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B339B18BA0B4235BB0897E43472D8587 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B69D4187F1B8F1EEEA7A0121DE67F2B7 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
+		C7076E4610576B7CF20B2CE7F7DD940D /* Pods-ConnectSensorProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConnectSensorProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C731B130F85A7EB186E80815717734A3 /* Pods_ConnectSensorProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ConnectSensorProject.framework; path = "Pods-ConnectSensorProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76FFA8B366E3322D5E1CCC7A1B8E94E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88FDE7C6E210AFC999C2A291669075C /* Pods-ConnectSensorProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConnectSensorProject-umbrella.h"; sourceTree = "<group>"; };
+		C97399C6B20CCE8A2C527EABBE26C7FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3EFEFD585B5DBD760E37CEC068DA7F8 /* Pods-ConnectSensorProjectUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConnectSensorProjectUITests-resources.sh"; sourceTree = "<group>"; };
+		E449573CD91B398E75AFB1B251407902 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3F996A1127643C4147BC2CE40C8B29 /* Pods-ConnectSensorProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConnectSensorProject.release.xcconfig"; sourceTree = "<group>"; };
+		F19B85938598FC5D4EE9ED3288685935 /* Pods-ConnectSensorProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ConnectSensorProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5549F3153854B1967BAF9507EC741F8 /* Pods-ConnectSensorProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ConnectSensorProject-frameworks.sh"; sourceTree = "<group>"; };
+		F91ACD0796242E287B26ED653FBDE09B /* Pods-ConnectSensorProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConnectSensorProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF55BB923ABF3D6BDEE95F44FF621D90 /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DAA47A5268AF75276B9DC80E8A34A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E7983AC1A7FDE4D5B5711604A7151E /* Foundation.framework in Frameworks */,
+				139234D4929A1A933E1A7F79FC07ADB3 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82277E90925C22AF401F02A9EAD8E617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF84E4E5EA594C0244625BEDF14F610 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6694DFB0BD7D164A20C32EF571695C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB835A838D12FE753F344F639DB9FBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70386B6727ED5E066D7F84E3BE4860E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5F2CAE170CF4DF1D4670CAB80E79B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27B754B14E7F5BDD025A603861F1DD97 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B1C3A1F100D6DE00B711E31320AFB0EB /* Foundation.framework */,
+				77AA8FC57764E9577CA25AFE700170D3 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2ACB31289052A6A71CE71E6C4177D736 /* Pods-ConnectSensorProject */ = {
+			isa = PBXGroup;
+			children = (
+				C76FFA8B366E3322D5E1CCC7A1B8E94E /* Info.plist */,
+				8DDD13AAE2B208FDFD981CA7085E4440 /* Pods-ConnectSensorProject.modulemap */,
+				7B08486AB2D3EDDE0EE60D5969CAB242 /* Pods-ConnectSensorProject-acknowledgements.markdown */,
+				F91ACD0796242E287B26ED653FBDE09B /* Pods-ConnectSensorProject-acknowledgements.plist */,
+				1FE9EA08DB193C4636DEF76E4A72184C /* Pods-ConnectSensorProject-dummy.m */,
+				F5549F3153854B1967BAF9507EC741F8 /* Pods-ConnectSensorProject-frameworks.sh */,
+				4081E15AAA25116F4ACDCE8160290A35 /* Pods-ConnectSensorProject-resources.sh */,
+				C88FDE7C6E210AFC999C2A291669075C /* Pods-ConnectSensorProject-umbrella.h */,
+				6E73CBA5132EE9FF5901D59013F09EF8 /* Pods-ConnectSensorProject.debug.xcconfig */,
+				EF3F996A1127643C4147BC2CE40C8B29 /* Pods-ConnectSensorProject.release.xcconfig */,
+			);
+			name = "Pods-ConnectSensorProject";
+			path = "Target Support Files/Pods-ConnectSensorProject";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27B754B14E7F5BDD025A603861F1DD97 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		678C05FE1B71D94B49590F1A8016BC33 /* Pods-ConnectSensorProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				C97399C6B20CCE8A2C527EABBE26C7FA /* Info.plist */,
+				086325F80F49F361BA461A85B10F5F2A /* Pods-ConnectSensorProjectTests.modulemap */,
+				C7076E4610576B7CF20B2CE7F7DD940D /* Pods-ConnectSensorProjectTests-acknowledgements.markdown */,
+				A5CA974934051B5F073610A319D6DCBD /* Pods-ConnectSensorProjectTests-acknowledgements.plist */,
+				31549AB6D99558C62E436511FE9DBAB8 /* Pods-ConnectSensorProjectTests-dummy.m */,
+				945F2749CC9FC1F24C33F103A1FBA049 /* Pods-ConnectSensorProjectTests-frameworks.sh */,
+				741961D6F8D4C208E9DF4F56A9792BF0 /* Pods-ConnectSensorProjectTests-resources.sh */,
+				47F370982EEC34CE2EF22FA727EDBB5A /* Pods-ConnectSensorProjectTests-umbrella.h */,
+				73BE53C7690B698D39D19DCF69B5B763 /* Pods-ConnectSensorProjectTests.debug.xcconfig */,
+				B0D88435BB7381B32F2BA60CA1AA46CC /* Pods-ConnectSensorProjectTests.release.xcconfig */,
+			);
+			name = "Pods-ConnectSensorProjectTests";
+			path = "Target Support Files/Pods-ConnectSensorProjectTests";
+			sourceTree = "<group>";
+		};
+		7351D5D79118B8964A4524091766EC05 /* Pods-ConnectSensorProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B339B18BA0B4235BB0897E43472D8587 /* Info.plist */,
+				26969D0569D1C0886AC6C118CE213FDD /* Pods-ConnectSensorProjectUITests.modulemap */,
+				F19B85938598FC5D4EE9ED3288685935 /* Pods-ConnectSensorProjectUITests-acknowledgements.markdown */,
+				6B2977437CDE2CD5203BD0C73229DE44 /* Pods-ConnectSensorProjectUITests-acknowledgements.plist */,
+				131A36F80BC678C5E673CFCC8EFF301F /* Pods-ConnectSensorProjectUITests-dummy.m */,
+				864807FA7947C018A8527920A89E678A /* Pods-ConnectSensorProjectUITests-frameworks.sh */,
+				E3EFEFD585B5DBD760E37CEC068DA7F8 /* Pods-ConnectSensorProjectUITests-resources.sh */,
+				089CC68A6569DAB58C74F74FE063023F /* Pods-ConnectSensorProjectUITests-umbrella.h */,
+				7AA271AEAEEBA381F33DF7E9C0007501 /* Pods-ConnectSensorProjectUITests.debug.xcconfig */,
+				03CC773CA98A60381EA1ECF85090DF3E /* Pods-ConnectSensorProjectUITests.release.xcconfig */,
+			);
+			name = "Pods-ConnectSensorProjectUITests";
+			path = "Target Support Files/Pods-ConnectSensorProjectUITests";
+			sourceTree = "<group>";
+		};
+		761158583F960C0ED127B910C5EA91FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C731B130F85A7EB186E80815717734A3 /* Pods_ConnectSensorProject.framework */,
+				454DACB173B8E12DCB79B9D210569819 /* Pods_ConnectSensorProjectTests.framework */,
+				B1CEC5D5951A6CC2DEB46ED2A0734A5B /* Pods_ConnectSensorProjectUITests.framework */,
+				B2168101532A4441572E2F53FECA002B /* Reachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				9BCD5CBAACE7E3EBED55F693896BB924 /* Pods */,
+				761158583F960C0ED127B910C5EA91FF /* Products */,
+				C6C37A8C2527EAF9C4796E7451659021 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8186E3018AE78851C3DC3B346BD28400 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E449573CD91B398E75AFB1B251407902 /* Info.plist */,
+				4C9E676D029FB0CFEEC40271B94A6F46 /* ReachabilitySwift.modulemap */,
+				FF55BB923ABF3D6BDEE95F44FF621D90 /* ReachabilitySwift.xcconfig */,
+				9D5142C47B1A75048C2649F609D38AC9 /* ReachabilitySwift-dummy.m */,
+				9544718ABDE9F901834852562775B416 /* ReachabilitySwift-prefix.pch */,
+				4B2239DA93AF8EADE2936E304FDC200C /* ReachabilitySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		9BCD5CBAACE7E3EBED55F693896BB924 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F47FCCB16BA3F38D5553162F93FAF492 /* ReachabilitySwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6C37A8C2527EAF9C4796E7451659021 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ACB31289052A6A71CE71E6C4177D736 /* Pods-ConnectSensorProject */,
+				678C05FE1B71D94B49590F1A8016BC33 /* Pods-ConnectSensorProjectTests */,
+				7351D5D79118B8964A4524091766EC05 /* Pods-ConnectSensorProjectUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F47FCCB16BA3F38D5553162F93FAF492 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				B69D4187F1B8F1EEEA7A0121DE67F2B7 /* Reachability.swift */,
+				8186E3018AE78851C3DC3B346BD28400 /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F72AB8CDF6FDD29906701E6D0CCBE84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3C81913E0BB58E6E1AA2631DBCE1FC /* Pods-ConnectSensorProjectUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C7A51068A53FFF47C6CAE0ECE38117 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0396DA7731DAFB8C5ECFB604DD5588 /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683DD718B6CCEAD581FE305AC625449F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FD4B3A780B3ED6EB4288CA736E00CC /* Pods-ConnectSensorProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BA3ECB1DCE3CA0B7FFCE8C0ABE7315 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				704472FCE9518D243C988D23AAF5C5E3 /* Pods-ConnectSensorProjectTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		94D8666874BD670B7E31A04187DE8EEE /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C80AEE15490D1B4A63E1F9FCB256AF9 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				658FEDB45FE1349B794862BB904C0659 /* Sources */,
+				0DAA47A5268AF75276B9DC80E8A34A72 /* Frameworks */,
+				57C7A51068A53FFF47C6CAE0ECE38117 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = B2168101532A4441572E2F53FECA002B /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F461C79EC3FFE1894379EBA2E2BCDD9 /* Pods-ConnectSensorProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D85DA49140BAEF26192D0813C0B75D /* Build configuration list for PBXNativeTarget "Pods-ConnectSensorProject" */;
+			buildPhases = (
+				61D49BF39B8EB932995892EA09A052FE /* Sources */,
+				E6694DFB0BD7D164A20C32EF571695C1 /* Frameworks */,
+				683DD718B6CCEAD581FE305AC625449F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C51EE431537AB83FEE4BF7336809E9F /* PBXTargetDependency */,
+			);
+			name = "Pods-ConnectSensorProject";
+			productName = "Pods-ConnectSensorProject";
+			productReference = C731B130F85A7EB186E80815717734A3 /* Pods_ConnectSensorProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AECC76F08380C4A0A188C5ECA11706F7 /* Pods-ConnectSensorProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C85455D2E60F6A73582E7AC90E99EF /* Build configuration list for PBXNativeTarget "Pods-ConnectSensorProjectTests" */;
+			buildPhases = (
+				A7E721E37B4F14A3CB930E2EEC4E687A /* Sources */,
+				82277E90925C22AF401F02A9EAD8E617 /* Frameworks */,
+				83BA3ECB1DCE3CA0B7FFCE8C0ABE7315 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7C1A2927031B82D6148BCC974A74191 /* PBXTargetDependency */,
+			);
+			name = "Pods-ConnectSensorProjectTests";
+			productName = "Pods-ConnectSensorProjectTests";
+			productReference = 454DACB173B8E12DCB79B9D210569819 /* Pods_ConnectSensorProjectTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD64D0A2C50B6A510791B72191664115 /* Pods-ConnectSensorProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29967A71774D7021FB37291319A49E0C /* Build configuration list for PBXNativeTarget "Pods-ConnectSensorProjectUITests" */;
+			buildPhases = (
+				E464A3A8D8EE3B34AEAD73BFB65EA444 /* Sources */,
+				E70386B6727ED5E066D7F84E3BE4860E /* Frameworks */,
+				2F72AB8CDF6FDD29906701E6D0CCBE84 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B236C3465783E99CCD525E2724E332C3 /* PBXTargetDependency */,
+			);
+			name = "Pods-ConnectSensorProjectUITests";
+			productName = "Pods-ConnectSensorProjectUITests";
+			productReference = B1CEC5D5951A6CC2DEB46ED2A0734A5B /* Pods_ConnectSensorProjectUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 761158583F960C0ED127B910C5EA91FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F461C79EC3FFE1894379EBA2E2BCDD9 /* Pods-ConnectSensorProject */,
+				AECC76F08380C4A0A188C5ECA11706F7 /* Pods-ConnectSensorProjectTests */,
+				FD64D0A2C50B6A510791B72191664115 /* Pods-ConnectSensorProjectUITests */,
+				94D8666874BD670B7E31A04187DE8EEE /* ReachabilitySwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61D49BF39B8EB932995892EA09A052FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D8E5531D4A6F1CB286299286DA530C7 /* Pods-ConnectSensorProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		658FEDB45FE1349B794862BB904C0659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51A70151812D15EB446053DABAC046D /* Reachability.swift in Sources */,
+				9FEE9432DE4F25FFCA1B3B1627C9B686 /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E721E37B4F14A3CB930E2EEC4E687A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F1F524076112DBDBD16AE384CF021B /* Pods-ConnectSensorProjectTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E464A3A8D8EE3B34AEAD73BFB65EA444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5B526E4998B0E1C6055EA16BB2CEF2 /* Pods-ConnectSensorProjectUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C51EE431537AB83FEE4BF7336809E9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 94D8666874BD670B7E31A04187DE8EEE /* ReachabilitySwift */;
+			targetProxy = B45E6C55C0AAFAC3F5EACB3912D8756A /* PBXContainerItemProxy */;
+		};
+		A7C1A2927031B82D6148BCC974A74191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ConnectSensorProject";
+			target = 9F461C79EC3FFE1894379EBA2E2BCDD9 /* Pods-ConnectSensorProject */;
+			targetProxy = 8A3900A890F44ABB5D607CBCB5643AD2 /* PBXContainerItemProxy */;
+		};
+		B236C3465783E99CCD525E2724E332C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ConnectSensorProject";
+			target = 9F461C79EC3FFE1894379EBA2E2BCDD9 /* Pods-ConnectSensorProject */;
+			targetProxy = B6ADB2C1835CE347C876640CF188ACCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02E0F86F176B2BF46343DD99D7C1981B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E73CBA5132EE9FF5901D59013F09EF8 /* Pods-ConnectSensorProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConnectSensorProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConnectSensorProject/Pods-ConnectSensorProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23506F2742CC110A6A6B99919CCD0817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BE53C7690B698D39D19DCF69B5B763 /* Pods-ConnectSensorProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConnectSensorProjectTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConnectSensorProjectTests/Pods-ConnectSensorProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A2EF5EE7F00928D3201D1F60DF58F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3F996A1127643C4147BC2CE40C8B29 /* Pods-ConnectSensorProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConnectSensorProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConnectSensorProject/Pods-ConnectSensorProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53249D90C1BF98719AB80179457CCE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AA271AEAEEBA381F33DF7E9C0007501 /* Pods-ConnectSensorProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConnectSensorProjectUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConnectSensorProjectUITests/Pods-ConnectSensorProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C6A0784A620CB2AAFF3727370B8075B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D88435BB7381B32F2BA60CA1AA46CC /* Pods-ConnectSensorProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConnectSensorProjectTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConnectSensorProjectTests/Pods-ConnectSensorProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		70D12032B38A2CF9D56862B038E454A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF55BB923ABF3D6BDEE95F44FF621D90 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9057B9ED1CAC97BB753AE7C5F78260A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF55BB923ABF3D6BDEE95F44FF621D90 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F1787693C68E8D02F000FFADAF1A00E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CC773CA98A60381EA1ECF85090DF3E /* Pods-ConnectSensorProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ConnectSensorProjectUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ConnectSensorProjectUITests/Pods-ConnectSensorProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C85455D2E60F6A73582E7AC90E99EF /* Build configuration list for PBXNativeTarget "Pods-ConnectSensorProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23506F2742CC110A6A6B99919CCD0817 /* Debug */,
+				5C6A0784A620CB2AAFF3727370B8075B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D85DA49140BAEF26192D0813C0B75D /* Build configuration list for PBXNativeTarget "Pods-ConnectSensorProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E0F86F176B2BF46343DD99D7C1981B /* Debug */,
+				4A2EF5EE7F00928D3201D1F60DF58F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29967A71774D7021FB37291319A49E0C /* Build configuration list for PBXNativeTarget "Pods-ConnectSensorProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53249D90C1BF98719AB80179457CCE7B /* Debug */,
+				F1787693C68E8D02F000FFADAF1A00E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C80AEE15490D1B4A63E1F9FCB256AF9 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D12032B38A2CF9D56862B038E454A6 /* Debug */,
+				9057B9ED1CAC97BB753AE7C5F78260A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
